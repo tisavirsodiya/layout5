@@ -1,0 +1,40 @@
+body
+{
+ position: relative;
+}
+
+.line_1
+{
+width:90%;
+height:10px;
+left:100px;
+background-color:white;
+margin-top: 10px;
+position: absolute;
+}
+.line_2 
+{
+    width:10%;
+    height:10px;
+    left:100px;
+    background-color:white;
+    margin-top: 30px;
+    position: absolute;
+}
+.main_img
+{
+background-image: url('main_img.jpg');
+ width:700px;
+ height:500px; 
+ position:absolute;
+ background-repeat: no-repeat;
+ right:0%;
+ z-index:-3;
+}
+.orange
+{
+    background-color: rgb(255, 69, 0,0.8);
+    left:10%;
+    position: absolute;
+    z-index: -2;
+}
