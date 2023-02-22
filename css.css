@@ -5,7 +5,7 @@ body
 
 .line_1
 {
-width:90%;
+width:80%;
 height:10px;
 left:100px;
 background-color:white;
@@ -24,11 +24,11 @@ position: absolute;
 .main_img
 {
 background-image: url('main_img.jpg');
- width:700px;
+ width:900px;
  height:500px; 
  position:absolute;
  background-repeat: no-repeat;
- right:0%;
+ right:10%;
  z-index:-3;
 }
 /* orange part */
@@ -39,7 +39,7 @@ background-image: url('main_img.jpg');
     position: absolute;
     z-index: -2;
     width:700px;
-    height:auto;
+    height:900px;
     padding-right:30px;
     padding-left:30px;
 }
@@ -53,4 +53,80 @@ background-image: url('main_img.jpg');
     display:flex;
     padding-left:100px;
 }
-/* syan part */
+/* trend */
+.trend
+{
+    text-orientation:upright;
+    writing-mode:vertical-lr;
+    color:white;
+    font-size:3rem;
+    font-weight:bolder;
+    border:0.1em solid;
+    background-color:rgba(255,68,0,0.8);
+     float:right;
+     right:7rem;
+}
+/* business */
+.business
+{
+    font-size:200px;
+    color:white;
+    left:10%;
+    padding-left:150px;
+}
+.flyer
+{
+    color:white;
+    font-size:50px;
+    left:10%;
+    padding-left:170px;
+
+}
+.creative
+{
+    color:white;
+    left:10%;
+    padding-left:170px;
+    font-size:30px;
+
+}
+/* cyan part */
+.cyan
+{
+    background-color:rgb(0, 255, 255,0.8);
+    left:90%;
+    position: absolute;
+    z-index: -1;
+    width:700px;
+    height:800px;
+    padding-right:50px;
+    padding-left:50px;
+    margin-top:0px;
+}
+.a
+{
+    color:white;
+    padding-top:300px;
+    text-align: right;
+
+
+}
+.peregraph
+{
+ text-align: center;
+ color: white;
+}
+.hr
+{
+    border:3px black solid;
+    
+}
+.hr_2
+{
+    border:3px cyan solid;
+}
+.image
+{
+    display:flex;
+
+}
