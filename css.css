@@ -32,14 +32,14 @@ background-image: url('main_img.jpg');
  z-index:-3;
 }
 /* orange part */
-.orange
+.orange_part
 {
-    background-color: rgb(255, 69, 0,0.8);
-    left:12%;
-    position: absolute;
-    z-index: -2;
-    width:700px;
-    height:900px;
+    /* background-color: rgb(255, 69, 0,0.8); */
+    /* left:12%; */
+    /* position: absolute; */
+    /* z-index: -2; */
+    /* width:700px; */
+    /* height:900px; */
     padding-right:30px;
     padding-left:30px;
 }
@@ -47,6 +47,10 @@ background-image: url('main_img.jpg');
 {
     margin-top:35px;
     color:white;
+}
+.coded
+{
+    font-size:50px;
 }
 .logo
 {
@@ -96,15 +100,39 @@ background-image: url('main_img.jpg');
     padding-left:170px;
     margin-top:100px;
 }
-/* cyan part */
-.cyan
+.location
 {
-    background-color:rgb(0, 255, 255,0.8);
-    right:0%;
-    position: absolute;
-    z-index: -1;
-    width:700px;
-    height:600px;
+  color:white;
+  left:10%;
+  text-align:center;
+  padding-left:50px; 
+  margin-top:-30px;
+}
+.call
+{
+  color:white;
+  left:10%;
+  text-align:center; 
+  padding-left:50px; 
+  margin-top:-30px;
+ }
+.mail
+{
+  color:white;
+  left:10%;
+  text-align:center; 
+  padding-left:50px;  
+  margin-top:-30px;
+}
+/* cyan part */
+.cyan_part
+{
+    /* background-color:rgb(0, 255, 255,0.8); */
+    /* right:0%; */
+    /* position: absolute; */
+    /* z-index: -1; */
+    /* width:700px; */
+    /* height:500px; */
     padding-right:50px;
     padding-left:50px;
 
@@ -131,4 +159,41 @@ background-image: url('main_img.jpg');
 .image
 {
     display:flex;
+}
+.www
+{
+    color:white;
+    text-align:center;
+    padding-top:50px;
+}
+.border_left
+{
+    border-left: white 10px solid;
+    width:500px;
+    height:819px;
+    margin-top:-773px;
+    left:0%;
+}
+.orange
+{
+    background-color: rgb(255, 69, 0,0.8);
+    z-index: -2;
+    width:700px;
+    height:900px;
+    position:absolute;
+    left:10%;
+
+
+}
+.cyan_part
+{
+    background-color:rgb(0, 255, 255,0.8);
+    bottom:0%;
+    right:0%;
+    position: absolute;
+    z-index: -1;
+    width:550px;
+    height:600px;
+
+
 }
