@@ -24,11 +24,11 @@ position: absolute;
 .main_img
 {
 background-image: url('main_img.jpg');
- width:900px;
- height:500px; 
+ width:1000px;
+ height:800px; 
  position:absolute;
  background-repeat: no-repeat;
- right:10%;
+ right:0%;
  z-index:-3;
 }
 /* orange part */
@@ -80,7 +80,6 @@ background-image: url('main_img.jpg');
     font-size:50px;
     left:10%;
     padding-left:170px;
-
 }
 .creative
 {
@@ -88,28 +87,33 @@ background-image: url('main_img.jpg');
     left:10%;
     padding-left:170px;
     font-size:30px;
-
+}
+/* black part */
+.black
+{
+    color:white;
+    left:10%;
+    padding-left:170px;
+    margin-top:100px;
 }
 /* cyan part */
 .cyan
 {
     background-color:rgb(0, 255, 255,0.8);
-    left:90%;
+    right:0%;
     position: absolute;
     z-index: -1;
     width:700px;
-    height:800px;
+    height:600px;
     padding-right:50px;
     padding-left:50px;
-    margin-top:0px;
+
 }
 .a
 {
     color:white;
-    padding-top:300px;
     text-align: right;
-
-
+    font-size:100px;
 }
 .peregraph
 {
@@ -119,7 +123,6 @@ background-image: url('main_img.jpg');
 .hr
 {
     border:3px black solid;
-    
 }
 .hr_2
 {
@@ -128,5 +131,4 @@ background-image: url('main_img.jpg');
 .image
 {
     display:flex;
-
 }
