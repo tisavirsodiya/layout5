@@ -7,7 +7,7 @@ body
 {
 width:80%;
 height:10px;
-left:100px;
+left:150px;
 background-color:white;
 margin-top: 10px;
 position: absolute;
@@ -16,7 +16,7 @@ position: absolute;
 {
     width:10%;
     height:10px;
-    left:100px;
+    left:150px;
     background-color:white;
     margin-top: 30px;
     position: absolute;
@@ -34,12 +34,6 @@ background-image: url('main_img.jpg');
 /* orange part */
 .orange_part
 {
-    /* background-color: rgb(255, 69, 0,0.8); */
-    /* left:12%; */
-    /* position: absolute; */
-    /* z-index: -2; */
-    /* width:700px; */
-    /* height:900px; */
     padding-right:30px;
     padding-left:30px;
 }
@@ -81,7 +75,7 @@ background-image: url('main_img.jpg');
 .flyer
 {
     color:white;
-    font-size:50px;
+    font-size:100px;
     left:10%;
     padding-left:170px;
 }
@@ -127,15 +121,9 @@ background-image: url('main_img.jpg');
 /* cyan part */
 .cyan_part
 {
-    /* background-color:rgb(0, 255, 255,0.8); */
-    /* right:0%; */
-    /* position: absolute; */
-    /* z-index: -1; */
-    /* width:700px; */
-    /* height:500px; */
     padding-right:50px;
     padding-left:50px;
-
+    padding-top:300px;
 }
 .a
 {
@@ -172,7 +160,7 @@ background-image: url('main_img.jpg');
     width:500px;
     height:819px;
     margin-top:-773px;
-    left:0%;
+    left:30%;
 }
 .orange
 {
@@ -182,8 +170,6 @@ background-image: url('main_img.jpg');
     height:900px;
     position:absolute;
     left:10%;
-
-
 }
 .cyan_part
 {
@@ -193,7 +179,7 @@ background-image: url('main_img.jpg');
     position: absolute;
     z-index: -1;
     width:550px;
-    height:600px;
+    height:900px;
 
 
 }
